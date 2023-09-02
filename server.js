@@ -20,5 +20,5 @@ app.get('/:sleep?', async (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Sleeping server listening on port ${port}`)
+    console.log(`Sleepy server listening on port ${port}`)
 })
